@@ -1,7 +1,5 @@
 # IMDb Top 250 Movies Analysis
-
-## Table of Contents
-
+ 
 
 ## Project Overview
 
@@ -61,6 +59,7 @@ plt.title('Distribution of IMDb Ratings in Top 250 Movies', fontsize=14)
 plt.xlabel('Rating')
 plt.ylabel('Count')
 plt.show()
+
 
 # Runtime distribution
 plt.figure(figsize=(12,6))
@@ -127,11 +126,11 @@ plt.show()
 ## Results / Findings
 
 ### 1. Rating Distribution
-- Ratings follow a left-skewed distribution, with the majority of films (75%) scoring between 8.0–8.8. Only 5% exceed 9.0 (e.g., The Shawshank Redemption, The Godfather).
+- Ratings follow a left-skewed distribution, with the majority of films (96.8%) scoring between 8.0–8.8. Only 5.6% exceed 9.0 (e.g., The Shawshank Redemption, The Godfather).
 - Exceptional ratings (≥9.0) are rare, but films in the 8.0–8.8 range dominate the list.
 
 ### 2. Runtime Analysis
-- Most films (68%) are 90–150 minutes long. Extreme runtimes exist (e.g., Gone with the Wind at 238 minutes, Sherlock Jr. at 45 minutes) but are outliers.
+- Most films (72.4%) are 90–150 minutes long. Extreme runtimes exist (e.g., Gone with the Wind at 238 minutes, Sherlock Jr. at 45 minutes) but are outliers.
 - While runtime varies, mid-length films (2–2.5 hours) are most common in the Top 250.
 
 ### 3. Release Year Trends
